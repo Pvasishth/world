@@ -1,11 +1,22 @@
-<h2>WordCount</h2>
-Welcome to wordcount website
-<br>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Paras Vasishth</title>
+  </head>
+  <body>
+    <div class="container">
 
-<form action="{% url 'count' %}">
-  <textarea name="fulltextarea" cols=40 rows=10></textarea>
-  <br />
-  <input type="submit" value="Count!"/>
 
+    <h2>WordCount</h2>
+    Welcome to wordcount website
+    <br>
 
-</form>
+    <form action="{% url 'count' %}">
+      <textarea name="fulltextarea" cols=40 rows=10></textarea>
+      <br />
+      <input type="submit" value="Count!"/>
+    </form>
+   </div>
+  </body>
+</html>
